@@ -12,9 +12,32 @@ h1 {
     height: 500px;
     margin: 0 auto;
     border: 5px solid #003049;
+    display: flex; /* "turning it on" */
 }
 
 #container div {
     width: 200px;
     height: 200px;
 }
+
+/* The Flex Model 
+    flex-direction: row;
+        Main Axis   horizontal           
+        Cross Axis  vertical
+        (left to right)
+
+    flex-direction: reverse;
+        Main Axis   horizontal           
+        Cross Axis  vertical
+        (right to left) 
+        
+    flex-direction: column;
+        Main Axis   vertical           
+        Cross Axis  horizontal
+        (top to bottom)  
+        
+    flex-direction: column-reverse;
+        Main Axis   vertical           
+        Cross Axis  horizontal
+        (bottom to top)
+*/
