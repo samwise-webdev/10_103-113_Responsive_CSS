@@ -93,3 +93,20 @@ h1 {
         aligns items to the baseline of the text
     
 */
+
+/* Align Content distributes space along the CROSS AXIS but only when we have multiple rows or columns (this only works with flex-wrap: wrap or wrap-reverse)
+
+    align-content: center;
+        aligns all columns/rows into the center
+
+    align-content: space-between;
+        does the same thing as the other space-between
+*/
+
+/* Align Self is applied to individual element(s) IN the container, and not the container itself. changes alignment on the CROSS AXIS for the element using it 
+
+    align-self: flex-end;
+    align-self: center;
+    align-self: flex-start;
+*/
+
