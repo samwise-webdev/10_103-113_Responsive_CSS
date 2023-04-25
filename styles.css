@@ -43,7 +43,7 @@ h1 {
         (bottom to top)
 */
 
-/*Justify Content - determins how the content is distributed across the main axis and is dependent on the main axis direction. so by default it is left to right, but if you did reverse it would go right to left. 
+/*Justify Content - determins how the content is distributed across the MAIN AXIS and is dependent on the main axis direction. so by default it is left to right, but if you did reverse it would go right to left. 
 
     justify-content: flex-start; (default)
         stacks from the start of the main axis
@@ -76,4 +76,20 @@ h1 {
 
     flex-wrap: nowrap;
         does not allow wrapping
+*/
+
+/* Align Items distributes elements along the CROSS AXIS
+
+    align-items: flex-start;
+        default top to bottom
+
+    align-items: flex-end;
+        default bottom to top
+
+    align-items: center;
+        center (use with justify-content: center; to align centered both ways
+
+    align-items: baseline;
+        aligns items to the baseline of the text
+    
 */
