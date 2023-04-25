@@ -61,5 +61,19 @@ h1 {
         gives each element the same amount of space around it
     
     justify-content: space-evenly;
-        distribute the extra space so that each element has the same amount of space around it and the edges of the container/parent (depending on axis direction)5
+        distribute the extra space so that each element has the same amount of space around it and the edges of the container/parent (depending on axis direction)
+*/
+
+/* Flex wrap determins if the contents will wrap onto the next line
+
+    flex-wrap: wrap;
+        will allow the content to move onto a new line
+            for example, usually flex box will squish the divs so they fit in the container. giving it flex-wrap: wrap; will keep their height and allow multiple lines of content
+
+    flex-wrap: wrap-reverse;
+        same but reverse
+            example (flex-direction: row;): main axis left to right, cross axis normally top to bottom. wrap-reverse will wrap the items opposite of the way the cross axis is, causing the second row to be above the first
+
+    flex-wrap: nowrap;
+        does not allow wrapping
 */
