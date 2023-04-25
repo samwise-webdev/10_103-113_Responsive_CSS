@@ -20,7 +20,8 @@ h1 {
     height: 200px;
 }
 
-/* The Flex Model 
+/* The Flex Model
+
     flex-direction: row;
         Main Axis   horizontal           
         Cross Axis  vertical
@@ -40,4 +41,25 @@ h1 {
         Main Axis   vertical           
         Cross Axis  horizontal
         (bottom to top)
+*/
+
+/*Justify Content - determins how the content is distributed across the main axis and is dependent on the main axis direction. so by default it is left to right, but if you did reverse it would go right to left. 
+
+    justify-content: flex-start; (default)
+        stacks from the start of the main axis
+
+    justify-content: flex-end;
+        stacks from the end of the main axis
+    
+    justify-content: center;
+        stacks the content in the center of the main axis
+    
+    justify-content: space-between;
+        takes all of the extra space and distributes it between the elements, but NOT on the outside edges
+
+    justify-content: space-around;
+        gives each element the same amount of space around it
+    
+    justify-content: space-evenly;
+        distribute the extra space so that each element has the same amount of space around it and the edges of the container/parent (depending on axis direction)5
 */
