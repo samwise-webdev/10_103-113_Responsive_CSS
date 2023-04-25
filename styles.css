@@ -15,7 +15,7 @@ h1 {
     display: flex; /* "turning it on" */
 }
 
-#container div {
+#container div { /* side note: if using flex-direction: column; (or column-reverse), the divs will NOT be 200px tall. They will compress to fit into the container */
     width: 200px;
     height: 200px;
 }
